@@ -96,7 +96,7 @@ export default function Home() {
         <h2 className="text-4xl font-semibold">Nigel Otieno</h2>
         <p className="text-teal-400 text-xl">Full-Stack Developer</p>
         <p className="text-lg text-gray-400 mt-2 max-w-3xl mx-auto">
-          I'm a results-driven software developer with hands-on experience across the full web application lifecycle—from design and development to deployment and integration. I specialize in building user-focused, business-aligned solutions that improve engagement and drive measurable impact. With a background spanning web development, digital marketing, and robotics, I bring a multidisciplinary approach to delivering high-impact projects and boosting profitability.
+          I&apos;m a results-driven software developer with hands-on experience across the full web application lifecycle—from design and development to deployment and integration. I specialize in building user-focused, business-aligned solutions that improve engagement and drive measurable impact. With a background spanning web development, digital marketing, and robotics, I bring a multidisciplinary approach to delivering high-impact projects and boosting profitability.
         </p>
       </section>
 
