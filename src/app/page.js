@@ -37,8 +37,16 @@ const skills = [
 
 const projects = [
   {
+    title: 'USEL Tournaments',
+    description: 'Official USEL Tournaments Application',
+    demo: 'https://useladmin.pythonanywhere.com/',
+    repo: 'https://github.com/nigel-otieno/USEL-Tournament',
+    stack: ['Django 4.0', 'Bootstrap'],
+    image: '/projects/tournaments.png',
+  },
+  {
     title: '4k Upscaler',
-    description: 'A fast-paced quiz game powered by the Open Trivia API...',
+    description: 'Upload any low quality video to 4k',
     demo: 'https://4k-video-upscaler-production.up.railway.app/',
     repo: 'https://github.com/nigel-otieno/4kVideoUpscaler',
     stack: ['Next.js', 'Tailwind CSS'],
@@ -75,9 +83,9 @@ const sections = ["about", "education", "skills", "projects", "hobbies"];
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white font-sans">
-      <nav className="fixed top-0 w-full backdrop-blur bg-black/40 z-50 px-6 py-4 flex justify-between items-center border-b border-white/10">
+      <nav className="fixed top-0 w-full backdrop-blur bg-black/40 z-50 px-4 sm:px-6 py-4 flex flex-wrap justify-between items-center border-b border-white/10">
         <h1 className="text-xl font-bold tracking-wide">Nigel Otieno</h1>
-        <ul className="flex gap-6 text-base">
+        <ul className="flex flex-wrap gap-4 sm:gap-6 text-base mt-2 sm:mt-0">
           {sections.map((section) => (
             <li key={section}>
               <a href={`#${section}`} className="hover:text-teal-400 transition-all">
@@ -165,7 +173,8 @@ export default function Home() {
             ))}
           </div>
         </section>
-
+            <br></br>
+            <br></br>
         <section id="projects" className="mb-20">
         <h2 className="text-3xl font-semibold mb-6">Projects</h2>
         <div className="grid sm:grid-cols-2 gap-6">
